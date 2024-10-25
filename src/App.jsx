@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar"
 import TopImage from "./Components/TopImage"
 import Third from './Components/Thrid.jsx'
+import Roasts from './Components/Roasts.jsx'
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <TopImage />
       <Third />
+      <Roasts/>
     </>
   )
 }

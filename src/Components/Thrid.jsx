@@ -23,7 +23,7 @@ export default function Thrid() {
         </div>
         <motion.div ref={ref} initial={{opacity:0,y:-200}} animate={isInView && {opacity:1,y:0}} transition={{ duration: 1 }} className="grid gap-4 grid-cols-1 grid-rows-2 top-0 place-self-end mr-[100px]">
             <div>
-                <img src={javaCup} alt="javacup" className='w-[200px] h-[219px]'/>
+                <img src={javaCup} alt="javacup" className='w-[12.5em] h-[13em]'/>
             </div>
             <div>
                 <h1 className='font-bold'>Why Java Coffee?</h1>
